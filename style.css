@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css');
+
+html {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 20px;
+    font-size: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+section {
+    padding: 50px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+i {
+    margin-right: 6px;
+}
